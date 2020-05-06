@@ -18,4 +18,6 @@ apt-get install tightvncserver
 tightvncserver :1
 
 tightvncserver -kill :1
+
+tightvncserver -geometry 1024x768 :1
 done
